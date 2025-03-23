@@ -52,8 +52,14 @@ How to fine-tune a Transformer on small datasets
 Importance of beam search, padding, and decoding strategies
 
 📌 Next Steps
+
 Try other summarization datasets (e.g., XSum, CNN-DailyMail)
 
 Experiment with longer models like t5-base or t5-large
 
 Add Streamlit or Gradio frontend for live summarization
+
+
+> ⚠️ Note: The fine-tuned model (`model.safetensors`) is not included in this repo due to GitHub's 100MB file size limit.
+
+> To reproduce the results, simply run the `04_fine_tuning.ipynb` notebook locally to regenerate the model.
